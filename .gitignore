@@ -8,3 +8,13 @@ app/*backup
 backup/
 scripts/update-namemaps.py
 prep_sc_data.R
+
+data
+res/
+imgs/
+scripts/
+__pycache__
+app
+rsc
+artifacts
+results*
