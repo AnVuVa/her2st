@@ -1,0 +1,100 @@
+splits:
+    - fold: 0
+      train:
+          [
+              C1,
+              C2,
+              C3,
+              C4,
+              C5,
+              C6,
+              D1,
+              D2,
+              D3,
+              D4,
+              D5,
+              D6,
+              E1,
+              E2,
+              E3,
+              F1,
+              F2,
+              F3,
+          ]
+      val: [G1, G2, G3, H1, H2, H3]
+      test: [A1, A2, A3, A4, A5, A6, B1, B2, B3, B4, B5, B6]
+
+    - fold: 1
+      train:
+          [
+              E1,
+              E2,
+              E3,
+              F1,
+              F2,
+              F3,
+              G1,
+              G2,
+              G3,
+              H1,
+              H2,
+              H3,
+              A1,
+              A2,
+              A3,
+              A4,
+              A5,
+              A6,
+          ]
+      val: [B1, B2, B3, B4, B5, B6]
+      test: [C1, C2, C3, C4, C5, C6, D1, D2, D3, D4, D5, D6]
+
+    - fold: 2
+      train:
+          [
+              G1,
+              G2,
+              G3,
+              H1,
+              H2,
+              H3,
+              A1,
+              A2,
+              A3,
+              A4,
+              A5,
+              A6,
+              B1,
+              B2,
+              B3,
+              B4,
+              B5,
+              B6,
+          ]
+      val: [C1, C2, C3, C4, C5, C6, D1, D2, D3, D4, D5, D6]
+      test: [E1, E2, E3, F1, F2, F3]
+
+    - fold: 3
+      train:
+          [
+              A1,
+              A2,
+              A3,
+              A4,
+              A5,
+              A6,
+              B1,
+              B2,
+              B3,
+              B4,
+              B5,
+              B6,
+              C1,
+              C2,
+              C3,
+              C4,
+              C5,
+              C6,
+          ]
+      val: [D1, D2, D3, D4, D5, D6]
+      test: [G1, G2, G3, H1, H2, H3]
